@@ -241,7 +241,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5cs-yq-Wdg" sceneMemberID="firstResponder"/>
-                <barButtonItem image="B6503418-4D2E-41DA-BF37-AE097707614C" id="UXX-Ap-3M4">
+                <barButtonItem image="FC188197-69D4-4C5E-94C7-489951677523" id="UXX-Ap-3M4">
                     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <connections>
                         <action selector="goBack" destination="Qv2-Am-0vb" id="9Ri-0V-cQa"/>
@@ -342,7 +342,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="B6503418-4D2E-41DA-BF37-AE097707614C" width="30" height="30">
+        <image name="FC188197-69D4-4C5E-94C7-489951677523" width="30" height="30">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISksLzU4VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
