@@ -77,9 +77,9 @@
 				449DE3E91C8F310B006BCCBE /* sellViewController.swift */,
 				449DE3EB1C8F3122006BCCBE /* moreViewController.swift */,
 				447B39C11C90859C009BBAC7 /* Main.storyboard */,
+				449DE3DF1C8F1875006BCCBE /* Info.plist */,
 				449DE3DA1C8F1875006BCCBE /* Assets.xcassets */,
 				449DE3DC1C8F1875006BCCBE /* LaunchScreen.storyboard */,
-				449DE3DF1C8F1875006BCCBE /* Info.plist */,
 			);
 			path = Regtransfers;
 			sourceTree = "<group>";

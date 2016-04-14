@@ -30,6 +30,13 @@ class searchViewController: UIViewController, WKNavigationDelegate {
     }
     
     
+    @IBAction func reload(sender: AnyObject) {
+        
+        searchWebView.reloadFromOrigin()
+        
+         let url = NSURL(string: "https://www.regtransfers.co.uk/mobile/ios-app/app-search.asp")
+        searchWebView.loadRequest(NSURLRequest(URL: url!))
+    }
   
     override func viewDidLoad() {
         super.viewDidLoad()

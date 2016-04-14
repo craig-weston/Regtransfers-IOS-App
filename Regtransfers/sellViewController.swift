@@ -28,6 +28,17 @@ class sellViewController: UIViewController,WKNavigationDelegate {
         view = sellWebView
     }
     
+    @IBAction func reload(sender: AnyObject) {
+        
+        self.tabBarController?.selectedIndex = 0
+        sellWebView.reloadFromOrigin()
+        
+        
+        let url = NSURL(string: "https://www.regtransfers.co.uk/mobile/ios-app/app-sell.asp")
+        
+        sellWebView.loadRequest(NSURLRequest(URL: url!))
+    }
+    
     @IBOutlet var sellTitle: UINavigationItem!
     override func viewDidLoad() {
         super.viewDidLoad()

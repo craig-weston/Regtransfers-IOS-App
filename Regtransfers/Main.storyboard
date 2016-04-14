@@ -57,9 +57,9 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Regtransfers" id="9au-jU-4Xb">
                         <barButtonItem key="leftBarButtonItem" systemItem="refresh" id="s63-3p-vjQ">
-                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
-                                <action selector="reload" destination="Qv2-Am-0vb" id="gP8-oH-f5l"/>
+                                <action selector="reload:" destination="434-A4-CzU" id="Ui2-tG-mtg"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" id="pXa-jW-jur">
@@ -79,7 +79,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EBt-sS-S0c" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="816" y="326"/>
+            <point key="canvasLocation" x="824" y="326"/>
         </scene>
         <!--Regtransfers-->
         <scene sceneID="4b5-gO-ACU">
@@ -222,7 +222,7 @@
                         <barButtonItem key="leftBarButtonItem" systemItem="refresh" id="GoK-8k-6Bm">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <action selector="reload" destination="Qv2-Am-0vb" id="0gL-Bg-4zK"/>
+                                <action selector="reload:" destination="6U6-8J-5zS" id="79B-r8-BP6"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" id="fPY-Md-Obj">
@@ -241,7 +241,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5cs-yq-Wdg" sceneMemberID="firstResponder"/>
-                <barButtonItem image="FC188197-69D4-4C5E-94C7-489951677523" id="UXX-Ap-3M4">
+                <barButtonItem image="689B7977-BB1D-4E85-96B8-B0A752156173" id="UXX-Ap-3M4">
                     <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <connections>
                         <action selector="goBack" destination="Qv2-Am-0vb" id="9Ri-0V-cQa"/>
@@ -254,7 +254,7 @@
         <scene sceneID="Wuo-A8-Z3K">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HRC-XJ-lzd" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" image="home-7" selectedImage="home-7" id="oEN-AF-RNd"/>
+                    <tabBarItem key="tabBarItem" tag="2" title="Home" image="home-7" selectedImage="home-7" id="oEN-AF-RNd"/>
                     <toolbarItems/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jn4-Te-QYA">
@@ -342,7 +342,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="FC188197-69D4-4C5E-94C7-489951677523" width="30" height="30">
+        <image name="689B7977-BB1D-4E85-96B8-B0A752156173" width="30" height="30">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISksLzU4VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA

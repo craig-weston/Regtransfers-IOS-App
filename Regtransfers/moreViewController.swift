@@ -32,6 +32,16 @@ class moreViewController: UIViewController,WKNavigationDelegate {
         view = moreWebView
     }
     
+    @IBAction func reload(sender: AnyObject) {
+        
+        self.tabBarController?.selectedIndex = 0
+        moreWebView.reloadFromOrigin()
+        
+        let url = NSURL(string: "https://www.regtransfers.co.uk/mobile/ios-app/app-magazine.asp")
+        
+        moreWebView.loadRequest(NSURLRequest(URL: url!))
+    }
+    
     @IBOutlet var magazineTitle: UINavigationItem!
     override func viewDidLoad() {
         super.viewDidLoad()

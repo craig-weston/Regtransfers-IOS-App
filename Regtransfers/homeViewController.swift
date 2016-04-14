@@ -10,13 +10,50 @@ import Foundation
 import UIKit
 import WebKit
 
-class homeViewController: UIViewController, WKNavigationDelegate {
+class homeViewController: UIViewController, WKNavigationDelegate, UITabBarDelegate {
 
     @IBOutlet var phoneItem: UIBarButtonItem!
     @IBOutlet var websiteActivity: UIActivityIndicatorView!
     @IBOutlet var homeTitle: UINavigationItem!
     @IBOutlet var homeWebView: WKWebView!
+    
+    
+    
+    func tabBar(tabBar: UITabBar, didSelectItem item: UITabBarItem) {
+        
+        if (item.title == "Home" ){
+        let url = NSURL(string: "https://www.regtransfers.co.uk/mobile/ios-app/app-home.html")
+        homeWebView.loadRequest(NSURLRequest(URL: url!))
+        self.tabBarController?.selectedIndex = 2
+        }
+    }
+    
+    func tabBarController(tabBarController: UITabBarController, didSelectViewController viewController: UIViewController) {
+        
+        let index: Int = (tabBarController.viewControllers?.indexOf(viewController))!
+        
+        if index == 0 {
+            let navigationController = viewController as? UINavigationController
+            navigationController?.popToRootViewControllerAnimated(true)
+            let url = NSURL(string: "https://www.regtransfers.co.uk/mobile/ios-app/app-home.html")
+            homeWebView.loadRequest(NSURLRequest(URL: url!))
+             self.tabBarController?.selectedIndex = 2
+        }
+        
+    }
+    
+        
+    
 
+    @IBAction func reload(sender: AnyObject) {
+        
+        self.tabBarController?.selectedIndex = 0
+        homeWebView.reloadFromOrigin()
+        
+        let url = NSURL(string: "https://www.regtransfers.co.uk/mobile/ios-app/app-home.html")
+        
+        homeWebView.loadRequest(NSURLRequest(URL: url!))
+    }
     
     @IBAction func callUs(sender: AnyObject) {
         let phone = "tel://01582967777"
@@ -25,10 +62,6 @@ class homeViewController: UIViewController, WKNavigationDelegate {
         
     }
 
-    @IBAction func reloadPage(sender: AnyObject) {
-        homeWebView.reloadFromOrigin()
-        
-    }
     override func loadView() {
         homeWebView = WKWebView()
         homeWebView.navigationDelegate = self
