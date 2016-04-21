@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4411CE3F1CC9279900884877 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4411CE3B1CC9279900884877 /* Enum.swift */; };
+		4411CE401CC9279900884877 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4411CE3D1CC9279900884877 /* FontAwesome.otf */; };
+		4411CE411CC9279900884877 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4411CE3E1CC9279900884877 /* FontAwesome.swift */; };
 		447B39C21C90859C009BBAC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447B39C11C90859C009BBAC7 /* Main.storyboard */; };
 		449DE3D41C8F1875006BCCBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449DE3D31C8F1875006BCCBE /* AppDelegate.swift */; };
 		449DE3DB1C8F1875006BCCBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 449DE3DA1C8F1875006BCCBE /* Assets.xcassets */; };
@@ -14,13 +17,14 @@
 		449DE3E81C8F24AF006BCCBE /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449DE3E71C8F24AF006BCCBE /* searchViewController.swift */; };
 		449DE3EA1C8F310B006BCCBE /* sellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449DE3E91C8F310B006BCCBE /* sellViewController.swift */; };
 		449DE3EC1C8F3122006BCCBE /* moreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449DE3EB1C8F3122006BCCBE /* moreViewController.swift */; };
-		44B203451C96FAE20078850D /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B203441C96FAE20078850D /* FontAwesome.swift */; };
-		44B203471C96FB3B0078850D /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 44B203461C96FB3B0078850D /* FontAwesome.otf */; };
-		44B203491C96FB5D0078850D /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B203481C96FB5D0078850D /* Enum.swift */; };
 		44B5A37C1C903BA2000A2619 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B5A37B1C903BA2000A2619 /* homeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4411CE3B1CC9279900884877 /* Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		4411CE3C1CC9279900884877 /* FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontAwesome.h; sourceTree = "<group>"; };
+		4411CE3D1CC9279900884877 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		4411CE3E1CC9279900884877 /* FontAwesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesome.swift; sourceTree = "<group>"; };
 		447B39C11C90859C009BBAC7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		449DE3D01C8F1875006BCCBE /* Regtransfers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Regtransfers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		449DE3D31C8F1875006BCCBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -30,10 +34,6 @@
 		449DE3E71C8F24AF006BCCBE /* searchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
 		449DE3E91C8F310B006BCCBE /* sellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sellViewController.swift; sourceTree = "<group>"; };
 		449DE3EB1C8F3122006BCCBE /* moreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = moreViewController.swift; sourceTree = "<group>"; };
-		44B203441C96FAE20078850D /* FontAwesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = "../../Downloads/FontAwesome.swift-master 2/FontAwesome/FontAwesome.swift"; sourceTree = "<group>"; };
-		44B203461C96FB3B0078850D /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.otf; path = "../../Downloads/FontAwesome.swift-master 2/FontAwesome/FontAwesome.otf"; sourceTree = "<group>"; };
-		44B203481C96FB5D0078850D /* Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Enum.swift; path = "../../Downloads/FontAwesome.swift-master 2/FontAwesome/Enum.swift"; sourceTree = "<group>"; };
-		44B2034A1C96FBFC0078850D /* FontAwesome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FontAwesome.h; path = "../../Downloads/FontAwesome.swift-master 2/FontAwesome/FontAwesome.h"; sourceTree = "<group>"; };
 		44B5A37B1C903BA2000A2619 /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,10 +68,10 @@
 			isa = PBXGroup;
 			children = (
 				449DE3D31C8F1875006BCCBE /* AppDelegate.swift */,
-				44B203441C96FAE20078850D /* FontAwesome.swift */,
-				44B2034A1C96FBFC0078850D /* FontAwesome.h */,
-				44B203461C96FB3B0078850D /* FontAwesome.otf */,
-				44B203481C96FB5D0078850D /* Enum.swift */,
+				4411CE3B1CC9279900884877 /* Enum.swift */,
+				4411CE3C1CC9279900884877 /* FontAwesome.h */,
+				4411CE3D1CC9279900884877 /* FontAwesome.otf */,
+				4411CE3E1CC9279900884877 /* FontAwesome.swift */,
 				44B5A37B1C903BA2000A2619 /* homeViewController.swift */,
 				449DE3E71C8F24AF006BCCBE /* searchViewController.swift */,
 				449DE3E91C8F310B006BCCBE /* sellViewController.swift */,
@@ -143,7 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				449DE3DE1C8F1875006BCCBE /* LaunchScreen.storyboard in Resources */,
-				44B203471C96FB3B0078850D /* FontAwesome.otf in Resources */,
+				4411CE401CC9279900884877 /* FontAwesome.otf in Resources */,
 				449DE3DB1C8F1875006BCCBE /* Assets.xcassets in Resources */,
 				447B39C21C90859C009BBAC7 /* Main.storyboard in Resources */,
 			);
@@ -158,10 +158,10 @@
 			files = (
 				449DE3D41C8F1875006BCCBE /* AppDelegate.swift in Sources */,
 				449DE3EA1C8F310B006BCCBE /* sellViewController.swift in Sources */,
+				4411CE3F1CC9279900884877 /* Enum.swift in Sources */,
 				449DE3EC1C8F3122006BCCBE /* moreViewController.swift in Sources */,
 				44B5A37C1C903BA2000A2619 /* homeViewController.swift in Sources */,
-				44B203491C96FB5D0078850D /* Enum.swift in Sources */,
-				44B203451C96FAE20078850D /* FontAwesome.swift in Sources */,
+				4411CE411CC9279900884877 /* FontAwesome.swift in Sources */,
 				449DE3E81C8F24AF006BCCBE /* searchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
