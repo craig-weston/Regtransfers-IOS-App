@@ -1,6 +1,6 @@
 # Regtransfers IOS Swift App
 
-new IOS app for Regtransfers
+New IOS app for Regtransfers
 
 Synopsis
 
@@ -17,3 +17,5 @@ The app can be downloaded here at https://itunes.apple.com/gb/app/regtransfers/i
 
 
 Tests
+
+N/A
